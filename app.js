@@ -1,3 +1,10 @@
+var stuff = require('./count')
+
+var pi = require('./count').pi
+
+console.log(stuff.counter(['ruby', 'node.js', 'react']))
+console.log(stuff.adder(3))
+console.log(pi)
 // console.log(__dirname)
 // console.log(__filename)
 
@@ -11,18 +18,18 @@
 //     }
 // },3000)
 
-function sayHi() {
-    console.log('Hi')
-}
+// function sayHi() {
+//     console.log('Hi')
+// }
 
-sayHi()
+// sayHi()
 
-function callFunction(fun,name) {
-    fun(name)
-}
+// function callFunction(fun,name) {
+//     fun(name)
+// }
 
-var sayBay = function (name) {
-    console.log(name + 'Bye')
-}
+// var sayBay = function (name) {
+//     console.log(name + 'Bye')
+// }
 
-callFunction(sayBay, 'rails365')
+// callFunction(sayBay, 'rails365')
